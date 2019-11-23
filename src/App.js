@@ -1,11 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./App.css";
+import Layouts from "./hoc/layouts/Layouts";
 
 function App() {
   return (
-    <div>
-      <h3>ola</h3>
-    </div>
+    <Fragment>
+      <Layouts />
+    </Fragment>
   );
 }
 
